@@ -1,0 +1,189 @@
+html, body{
+	margin: 0;
+	font-family: Candara, Arial, serif;
+	background-color: rgb(255, 255, 255);
+	max-width: 100%;
+	overflow-y: hidden;
+}
+
+#header{
+	background-color: #919191;
+	position: relative;
+	width: 100%;
+	height: 180px;
+}
+
+#logoBox{
+	position: absolute;
+	top: 55%;
+	left: 10%;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	white-space: nowrap;
+	transform: translate(0%, -50%);
+}
+
+#headerTopCenter{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	height: 50%;
+	width: 50%;
+	transform: translate(-50%);
+	line-height: 90px;
+	border-bottom: 1px solid #000000;
+	border-radius: 15px;
+}
+
+#headerBottomCenter{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 50%;
+	width: 50%;
+	transform: translate(-50%);
+	line-height: 90px;
+	border-top: 1px solid #000000;
+	border-radius: 15px;
+}
+
+.headerText{
+	text-align: center;
+	margin: 0;
+	vertical-align: middle;
+}
+
+#obenTxt{
+	font-size: 40px;
+	color: #FFFFFF;
+	text-shadow: -3px 0 black, 0 2px black, 3px 0 black, 0 -2px black;
+}
+
+#untenTxt{
+	font-size: 28px;
+	text-shadow: -3px 0 white, 0 2px white, 3px 0 white, 0 -2px white;
+}
+
+#unendlichOben{
+	position: absolute;
+	left: 97%;
+	bottom: 0px;
+	transform: translate(-50%);
+}
+
+#unendlichUnten{
+	position: absolute;
+	left: 3%;
+	top: 0px;
+	transform: translate(-50%);
+}
+
+#unten{
+	position: fixed;
+	width: 100%;
+	height: calc(100% - 180px);
+	background: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+	filter: blur(2px);
+}
+
+.ding{
+	/* margin: -1px;
+	border: 1px solid #919191; */
+	/* background-image: url("bilder/textur.png"); */
+	background: linear-gradient(rgb(124, 124, 124), rgb(201, 201, 201));
+	line-height: 0px;
+	word-wrap: break-word;
+	display: block;
+}
+
+.ding2{
+	background: linear-gradient(rgb(0, 0, 0), rgb(24, 24, 24));
+	filter: blur(2px);
+}
+
+.dingText{
+	font-size: 4vw;
+	text-align: center;
+	z-index: 5;
+}
+
+#unten2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 840px;
+	height: 465px;
+	transform: translate(-50%, -50%);
+	opacity: 0.8;
+	border: 3px solid #FFFFFF;
+	margin: -3px;
+}
+
+#feld{
+	cursor: crosshair;
+}
+
+#addP{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 150px;
+	height: 40px;
+	background: linear-gradient(rgb(41, 129, 0), rgb(0, 253, 13));
+	border: 3px solid #31B404;
+	cursor: pointer;
+}
+
+#addT{
+	text-align: center;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.spielerKlasse{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	cursor: move;
+}
+
+.spielerName{
+	font-size: 24px;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	color: #095ddb;
+	text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 white, 0 -1px white;
+	transform: translate(-50%);
+}
+
+#dl{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	right: 0px;
+	bottom: 0px;
+	background: linear-gradient(rgb(0, 253, 13), rgb(41, 129, 0));
+	border: 3px solid #31B404;
+	cursor: pointer;
+}
+
+#dlT{
+	text-align: center;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+#unten3{
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 840px;
+	height: 465px;
+	transform: translate(-50%, -50%);
+}
